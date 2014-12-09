@@ -1,0 +1,68 @@
+@font-face
+{
+	font-family:Ubuntu-light;
+	src:url('fonts/ubuntu-font-family-0.80/Ubuntu-L.ttf');
+}
+
+body *{
+	text-align:center;
+	font-family:Ubuntu-light;}
+
+body{margin-left:auto;
+	margin-right:auto;
+	width:95%;}
+a:link,
+a:visited{
+	color: #000;
+	font-weight:bold;
+	text-decoration:none;}
+
+a:hover{
+	color:#aaa;}
+
+#header_icon{
+	font-size:150px;
+	color:#aaa}
+
+#cp{
+	background:#000;
+	color:#fff;}
+footer,
+header{
+	margin-left:auto;
+	margin-right:auto;}
+
+header a,
+footer a{
+	margin-right:5px;}
+
+header ul,
+footer ul{
+	width:100%;
+	}
+
+li{
+	list-style-type: none;}
+
+header nav li,
+footer nav li{
+	float:left;
+	margin-right:10px;}
+
+footer footer li{
+	margin-left:-90px;}
+
+main
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+
+main img{
+	margin-top:30px;
+	max-width:100%;}
+main h2
+{
+	
+}
